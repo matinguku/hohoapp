@@ -16,10 +16,10 @@ export default function Login() {
 
   return (
     <View style={{ padding: 20, marginTop: 100 }}>
-      <Text>Email</Text>
+      <Text>Email: </Text>
       <TextInput value={email} onChangeText={setEmail} style={{ borderWidth: 1 }} />
 
-      <Text>Password</Text>
+      <Text>Password: </Text>
       <TextInput value={password} onChangeText={setPassword} secureTextEntry style={{ borderWidth: 1 }} />
 
       <Button title="Login" onPress={handleLogin} />
