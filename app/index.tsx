@@ -19,7 +19,7 @@ export default function Login() {
       <Text>Email</Text>
       <TextInput value={email} onChangeText={setEmail} style={{ borderWidth: 1 }} />
 
-      <Text>Password</Text>
+      <Text>Password: </Text>
       <TextInput value={password} onChangeText={setPassword} secureTextEntry style={{ borderWidth: 1 }} />
 
       <Button title="Login" onPress={handleLogin} />
