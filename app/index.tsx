@@ -16,6 +16,8 @@ export default function Login() {
 
   return (
     <View style={{ padding: 20, marginTop: 100 }}>
+
+      
       <Text>Email</Text>
       <TextInput value={email} onChangeText={setEmail} style={{ borderWidth: 1 }} />
 
